@@ -1,4 +1,4 @@
-"use strict"
+/* "use strict"
 
 
 
@@ -7,4 +7,4 @@ console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
 storage.addItem("Droid");
 console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"]
 storage.removeItem("Prolonger");
-console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
+console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"] */
