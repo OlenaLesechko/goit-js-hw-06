@@ -1,5 +1,27 @@
-/* "use strict"
+"use strict"
+class StringBuilder {
+    #value = "initialValue";
 
+    constructor(value){
+        this.#value = value;
+    }
+
+    getValue() {
+        return this.#value;
+    }
+
+    padEnd(str) {
+        return (this.#value += str);
+    }
+
+    padStart(str) {
+        return this.#value = str + this.#value;
+    }
+
+    padBoth(str) {
+        return this.#value = str + this.#value + str;
+    }
+}
 
 
 
@@ -10,4 +32,4 @@ console.log(builder.getValue()); // "^."
 builder.padEnd("^");
 console.log(builder.getValue()); // "^.^"
 builder.padBoth("=");
-console.log(builder.getValue()); // "=^.^=" */
+console.log(builder.getValue()); // "=^.^=" 
